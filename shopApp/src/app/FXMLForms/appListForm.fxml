@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#showMyApps" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <Label fx:id="APPS" layoutX="224.0" layoutY="26.0" text="APPS" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="64.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="72.0" fitWidth="79.0" layoutX="127.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Apps%20menu2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="79.0" layoutX="391.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/Notes.png" />
+         </image>
+      </ImageView>
+      <ScrollPane layoutX="29.0" layoutY="113.0" prefHeight="230.0" prefWidth="549.0">
+         <content>
+            <VBox fx:id="myAppList" prefHeight="990.0" prefWidth="513.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</Pane>

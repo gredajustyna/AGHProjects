@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#setStats" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UserController">
+   <children>
+      <Label layoutX="216.0" layoutY="22.0" text="STATS" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="64.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="72.0" fitWidth="122.0" layoutX="130.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Stats%20diagram.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="79.0" layoutX="403.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Stats%20diagram%20—%20kopia.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="26.0" layoutY="105.0" text="NUMBER OF PURCHASED APPS:" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label layoutX="26.0" layoutY="138.0" text="MONEY SPENT IN SHOP:" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label fx:id="devUploadTx" layoutX="26.0" layoutY="173.0" text="NUMBER OF UPLOADED APPS:" textFill="#507677" visible="false">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label fx:id="noOfPurchApps" layoutX="376.0" layoutY="105.0" text="0">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="moneySpent" layoutX="293.0" layoutY="138.0" text="0">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="devUploadApps" layoutX="369.0" layoutY="173.0" text="0" visible="false">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="moneySpent1" layoutX="105.0" layoutY="351.0" text="Thank you for supporting our shop!" textFill="#7e0001">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

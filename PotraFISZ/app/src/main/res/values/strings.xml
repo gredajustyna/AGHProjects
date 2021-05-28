@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">PotraFISZ!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="belarusian">Беларуская</string>
+    <string name="bulgarian">Български</string>
+    <string name="bosnian">Bosanski</string>
+    <string name="czech">Čeština</string>
+    <string name="danish">Dansk</string>
+    <string name="german">Deutsch</string>
+    <string name="estonian">Eesti</string>
+    <string name="greek">Ελληνικά</string>
+    <string name="spanish">Español</string>
+    <string name="french">Français</string>
+    <string name="croatian">Hrvatski</string>
+    <string name="italian">Italiano</string>
+    <string name="icelandic">Íslenska</string>
+    <string name="latvian">Latviešu</string>
+    <string name="lithuanian">Lietuvių</string>
+    <string name="hungarian">Magyar</string>
+    <string name="maltese">Malti</string>
+    <string name="macedonian">Македонски</string>
+    <string name="dutch">Nederlands</string>
+    <string name="norwegian">Norsk</string>
+    <string name="polish">Polski</string>
+    <string name="portuguese">Português</string>
+    <string name="romanian">Română</string>
+    <string name="russian">Русский</string>
+    <string name="english">English</string>
+    <string name="albanian">Shqip</string>
+    <string name="slovak">Slovenčina</string>
+    <string name="slovenian">Slovenščina</string>
+    <string name="serbian">Српски</string>
+    <string name="finnish">Suomi</string>
+    <string name="swedish">Svenska</string>
+    <string name="ukrainian">Українська</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+
+    <string-array name="language_array">
+
+        <item name="belarusian">Беларуская</item>
+        <item name="bulgarian">Български</item>
+        <item name="bosnian">Bosanski</item>
+        <item name="czech">Čeština</item>
+        <item name="danish">Dansk</item>
+        <item name="german">Deutsch</item>
+        <item name="estonian">Eesti</item>
+        <item name="greek">Ελληνικά</item>
+        <item name="spanish">Español</item>
+        <item name="french">Français</item>
+        <item name="croatian">Hrvatski</item>
+        <item name="italian">Italiano</item>
+        <item name="icelandic">Íslenska</item>
+        <item name="latvian">Latviešu</item>
+        <item name="lithuanian">Lietuvių</item>
+        <item name="hungarian">Magyar</item>
+        <item name="maltese">Malti</item>
+        <item name="macedonian">Македонски</item>
+        <item name="dutch">Nederlands</item>
+        <item name="norwegian">Norsk</item>
+        <item name="polish">Polski</item>
+        <item name="portuguese">Português</item>
+        <item name="romanian">Română</item>
+        <item name="russian">Русский</item>
+        <item name="english">English</item>
+        <item name="albanian">Shqip</item>
+        <item name="slovak">Slovenčina</item>
+        <item name="slovenian">Slovenščina</item>
+        <item name="serbian">Српски</item>
+        <item name="finnish">Suomi</item>
+        <item name="swedish">Svenska</item>
+        <item name="ukrainian">Українська</item>
+        <item name="new">Inny</item>
+    </string-array>
+
+    <string-array name="categoryArray">
+        <item name="noCategory">Bez kategorii</item>
+        <item name="makeCategory">Stwórz kategorię</item>
+    </string-array>
+</resources>

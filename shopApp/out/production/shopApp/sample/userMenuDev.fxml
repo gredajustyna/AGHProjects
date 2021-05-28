@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#setLabelsDev" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UserController">
+   <children>
+      <ImageView fitHeight="109.0" fitWidth="122.0" layoutX="22.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Untitled (17) 1.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="userLabel" layoutX="147.0" layoutY="42.0" prefHeight="41.0" prefWidth="178.0">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <Button id="addFunds" fx:id="addFundsButton" layoutX="35.0" layoutY="163.0" mnemonicParsing="false" onAction="#openAddApp" prefHeight="50.0" prefWidth="239.0" style="-fx-background-color: #507677;" text="add app" textFill="#7e0001">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="myAppsButton" layoutX="35.0" layoutY="235.0" mnemonicParsing="false" onAction="#myAppsButtonOnAction" prefHeight="50.0" prefWidth="239.0" style="-fx-background-color: #507677;" text="my apps" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="statsButton" layoutX="35.0" layoutY="307.0" mnemonicParsing="false" onAction="#statsButtonOnAction" prefHeight="50.0" prefWidth="239.0" style="-fx-background-color: #507677;" text="stats" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="325.0" layoutY="181.0" text="Status:">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="219.0" text="Device:">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="statusLabel" layoutX="396.0" layoutY="181.0" prefHeight="27.0" prefWidth="156.0" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="deviceLabel" layoutX="434.0" layoutY="213.0" prefHeight="27.0" prefWidth="141.0" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="currentMoneyLabel" layoutX="211.0" layoutY="104.0" prefHeight="27.0" prefWidth="114.0" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font></Label>
+      <Label layoutX="134.0" layoutY="104.0" text="Wallet:">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="hyperDevice" layoutX="396.0" layoutY="214.0" onAction="#openDeviceInfo" prefHeight="27.0" prefWidth="156.0" text=" " textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font></Hyperlink>
+   </children>
+</Pane>

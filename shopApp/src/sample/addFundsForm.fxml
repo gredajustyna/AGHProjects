@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#setMoney" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UserController">
+   <children>
+      <Label layoutX="202.0" layoutY="20.0" text="FUNDS" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="64.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="72.0" fitWidth="76.0" layoutX="112.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Funds.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="76.0" layoutX="406.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Funds.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="addFundsButton2" layoutX="181.0" layoutY="325.0" mnemonicParsing="false" onAction="#setAddFundsButton2" prefHeight="50.0" prefWidth="239.0" style="-fx-background-color: #507677;" text="add funds" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="92.0" layoutY="173.0" text="How much money would you like to add?">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="139.0" text="Your wallet:">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="currentMoneyLabel" layoutX="221.0" layoutY="139.0" prefHeight="27.0" prefWidth="112.0" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="moneyToAdd" layoutX="226.0" layoutY="212.0" promptText="insert the amount" />
+      <Label fx:id="moneyWarning" alignment="CENTER" layoutY="262.0" prefHeight="21.0" prefWidth="600.0" textAlignment="CENTER" textFill="#7e0001">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

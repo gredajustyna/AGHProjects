@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="57dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="263dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="     Pytanie:" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="147dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Pozostały czas:" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/wordsNumbersTx"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1/15"
+                android:textColor="@color/launcher_blue"
+                android:textSize="36sp" />
+
+            <Space
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/time_left"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0:30"
+                android:textColor="@color/red"
+                android:textSize="36sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="65dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Wpisz znaczenie słowa:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/word"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:gravity="center"
+            android:text="SŁÓWKO"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/meaning"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Wpisz znaczenie"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="65dp" />
+
+        <TextView
+            android:id="@+id/goodTx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DOBRZE!"
+            android:textColor="@color/green"
+            android:textSize="24sp"
+            android:visibility="invisible"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="108dp" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Dalej"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/checkBtn"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sprawdź" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

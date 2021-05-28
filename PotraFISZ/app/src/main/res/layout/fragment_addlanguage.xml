@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="67dp">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:gravity="center"
+            android:text="DODAJ NOWY JĘZYK"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Wybierz język z listy:"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="305dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="82dp" />
+
+        <TextView
+            android:id="@+id/textNazwa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Podaj nazwę:"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editTextNazwa"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Wpisz nazwę"
+            android:inputType="textPersonName"
+            android:visibility="invisible" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="105dp" />
+
+        <Button
+            android:id="@+id/add_language"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="dodaj" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#setLabels" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <ImageView fx:id="appPic" fitHeight="150.0" fitWidth="150.0" layoutX="25.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Notes.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="appName" layoutX="193.0" layoutY="50.0" prefHeight="45.0" prefWidth="214.0">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="appPrice" layoutX="197.0" layoutY="104.0" prefHeight="45.0" prefWidth="207.0">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="appDescr" alignment="TOP_LEFT" layoutX="33.0" layoutY="180.0" prefHeight="157.0" prefWidth="534.0" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="buyButton" layoutX="477.0" layoutY="343.0" mnemonicParsing="false" onAction="#buyButton" prefHeight="31.0" prefWidth="90.0" text="Buy!">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Button>
+      <VBox layoutX="385.0" layoutY="60.0" prefHeight="102.0" prefWidth="207.0" spacing="10.0" style="-fx-background-color: #507677;">
+         <children>
+            <Label fx:id="ramAmount" text="no of ram" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+               <graphic>
+                  <Label text="RAM:">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                  </Label>
+               </graphic>
+            </Label>
+            <Label fx:id="screenSize" text="inches" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+               <graphic>
+                  <Label text="Screen size:">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                  </Label>
+               </graphic>
+            </Label>
+            <Label fx:id="yearOfP" text="2020" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+               <graphic>
+                  <Label text="Produced in:">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                  </Label>
+               </graphic>
+            </Label>
+         </children>
+      </VBox>
+      <Label layoutX="420.0" layoutY="29.0" text="Requirements">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

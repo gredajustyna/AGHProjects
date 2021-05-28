@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#showInfo" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.buyDeviceController">
+   <children>
+      <Label layoutX="119.0" layoutY="24.0" text="DEVICE INFO" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="64.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="72.0" fitWidth="43.0" layoutX="65.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Phone1.jpg.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="78.0" layoutX="493.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Phone3.jpg.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="36.0" layoutY="120.0" text="DEVICE NAME:" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label layoutX="36.0" layoutY="153.0" text="YEAR OF PRODUCTION:" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label layoutX="36.0" layoutY="187.0" text="RAM:" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label layoutX="36.0" layoutY="220.0" text="SCREEN SIZE:" textFill="#507677">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label fx:id="phoneName" layoutX="199.0" layoutY="120.0" text="0">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="yearOfP" layoutX="293.0" layoutY="153.0" text="0">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="ramAmount" layoutX="101.0" layoutY="187.0" text="0">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="screenSize" layoutX="181.0" layoutY="220.0" text="0">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="350.0" text="Device too weak?" textFill="#7e0001">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="deviceShopLink" layoutX="259.0" layoutY="349.0" onAction="#openHyper" text="Check out our device shop!" underline="true">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Hyperlink>
+      <Label fx:id="phoneDesc" layoutX="36.0" layoutY="255.0" prefHeight="17.0" prefWidth="69.0" />
+   </children>
+</Pane>
